@@ -1,0 +1,168 @@
+============================================================
+LOG FILE : lab16_utility_calculator.log
+SCRIPT   : lab16_utility_calculator.py
+RUN TIME : 2026-11-02 18:31:06
+STATUS   : COMPLETED
+INPUTS   : 27 scripted entries
+============================================================
+
+==================================================
+     ENTERPRISE MODULAR UTILITY CALCULATOR
+==================================================
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 1
+Enter first number: 12
+Enter second number: 8
+[RESULT] 12 + 8 = 20
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 2
+Enter first number: 20
+Enter second number: 7.5
+[RESULT] 20 - 7.5 = 12.5
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 3
+Enter first number: 4
+Enter second number: 2.5
+[RESULT] 4 * 2.5 = 10
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 4
+Enter first number: 10
+Enter second number: 0
+[ERROR] Division by zero is not allowed.
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 4
+Enter first number: 10
+Enter second number: 4
+[RESULT] 10 / 4 = 2.5
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 5
+Enter first number: 17
+Enter second number: 5
+[RESULT] 17 % 5 = 2
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 6
+Enter base number: abc
+[ERROR] Please enter a valid number.
+Enter base number: 5
+Enter exponent (press Enter for default square): 
+[RESULT] 5 ^ 2 = 25
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 6
+Enter base number: 2
+Enter exponent (press Enter for default square): 10
+[RESULT] 2 ^ 10 = 1024
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 7
+
+--- Calculation History ---
+1. 12 + 8 = 20
+2. 20 - 7.5 = 12.5
+3. 4 * 2.5 = 10
+4. 10 / 4 = 2.5
+5. 17 % 5 = 2
+6. 5 ^ 2 = 25
+7. 2 ^ 10 = 1024
+
+Select an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus / Remainder (%)
+6. Power / Exponentiation (Default: Square)
+7. View Calculation History
+8. Exit
+
+Enter your choice (1-8): 8
+
+Thank you for using the Utility Calculator. Goodbye!

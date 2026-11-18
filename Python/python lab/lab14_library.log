@@ -1,0 +1,144 @@
+============================================================
+LOG FILE : lab14_library.log
+SCRIPT   : lab14_library.py
+RUN TIME : 2026-11-02 18:31:06
+STATUS   : COMPLETED
+INPUTS   : 13 scripted entries
+============================================================
+
+==================================================
+        LIBRARY BOOK & CATEGORY MANAGER
+==================================================
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 1
+
+--- Current Library Catalog (Fixed Records) ---
+1. "Python Crash Course" by Eric Matthes (2019) | Genre: Programming
+2. "Automate the Boring Stuff" by Al Sweigart (2020) | Genre: Programming
+3. "Artificial Intelligence: A Modern Approach" by Stuart Russell (2021) | Genre: AI
+4. "Clean Code" by Robert C. Martin (2008) | Genre: Software Engineering
+Total Books: 4
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 2
+
+--- Add New Book Record ---
+Enter book title: Deep Learning
+Enter author name: Ian Goodfellow
+Enter publication year: 2016
+Enter category/genre: AI
+
+[SUCCESS] "Deep Learning" added as an immutable catalog record.
+[INFO] Category set updated with: "AI"
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 1
+
+--- Current Library Catalog (Fixed Records) ---
+1. "Python Crash Course" by Eric Matthes (2019) | Genre: Programming
+2. "Automate the Boring Stuff" by Al Sweigart (2020) | Genre: Programming
+3. "Artificial Intelligence: A Modern Approach" by Stuart Russell (2021) | Genre: AI
+4. "Clean Code" by Robert C. Martin (2008) | Genre: Software Engineering
+5. "Deep Learning" by Ian Goodfellow (2016) | Genre: AI
+Total Books: 5
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 3
+
+--- Unique Categories Available in Library (Set) ---
+  - AI
+  - Programming
+  - Software Engineering
+Total Unique Genres: 3
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 4
+
+--- Add to Student Wishlist ---
+Enter requested category: Data Science
+[SUCCESS] "Data Science" added to student wishlist.
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 5
+
+=============== CATEGORY GAP ANALYSIS ===============
+Library Holdings (Set):  ['AI', 'Programming', 'Software Engineering']
+Student Wishlist (Set):  ['AI', 'Cloud Computing', 'Cybersecurity', 'Data Science', 'Robotics']
+----------------------------------------------------
+
+1. Already in Stock (Intersection &):
+   ['AI']
+
+2. Purchase Order Needed (Difference -):
+   ['Cloud Computing', 'Cybersecurity', 'Data Science', 'Robotics']
+
+3. Full Combined Genre Coverage (Union |):
+   ['AI', 'Cloud Computing', 'Cybersecurity', 'Data Science', 'Programming', 'Robotics', 'Software Engineering']
+====================================================
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 9
+
+[ERROR] Invalid choice! Please enter a number between 1 and 6.
+
+Select an operation:
+1. View Cataloged Books
+2. Add New Book Record
+3. View Unique Library Categories
+4. Add Category to Student Wishlist
+5. Run Category Gap Analysis
+6. Exit
+
+Enter your choice (1-6): 6
+
+Thank you for using the Library Manager. Goodbye!
