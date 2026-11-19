@@ -1,0 +1,162 @@
+============================================================
+LOG FILE : lab15_student_management.log
+SCRIPT   : lab15_student_management.py
+RUN TIME : 2026-11-02 18:31:06
+STATUS   : COMPLETED
+INPUTS   : 25 scripted entries
+============================================================
+
+==================================================
+     STUDENT INFORMATION MANAGEMENT SYSTEM
+==================================================
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 1
+
+--- Enrolled Student Records ---
+Roll No: 101  | Name: Aman      | Branch: BCA AI | Sem: 1 | Marks: [85, 90, 78]
+Roll No: 102  | Name: Riya      | Branch: BCA AI | Sem: 1 | Marks: [92, 88, 95]
+Roll No: 103  | Name: Karan     | Branch: BCA AI | Sem: 1 | Marks: [74, 80, 82]
+Total Enrolled Students: 3
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 2
+Enter Roll Number to search: 101
+
+[FOUND] Record for Roll No 101:
+  Name     : Aman
+  Branch   : BCA AI
+  Semester : 1
+  Marks    : [85, 90, 78]
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 3
+
+--- Register New Student ---
+Enter Roll Number: 104
+Enter Student Name: Neha
+Enter Branch (e.g. BCA AI): BCA AI
+Enter Semester: 1
+Enter marks obtained in 3 subjects:
+  Subject 1: 88
+  Subject 2: abc
+  [ERROR] Please enter a valid integer.
+  Subject 2: 76
+  Subject 3: 105
+  [ERROR] Marks must be between 0 and 100.
+  Subject 3: 91
+
+[SUCCESS] Student 'Neha' (Roll No: 104) registered successfully.
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 4
+
+--- Update Student Details ---
+Enter Roll Number to update: 101
+Which field do you want to update?
+1. Name
+2. Branch
+3. Semester
+4. Marks
+Enter choice (1-4): 4
+Enter new marks for 3 subjects:
+  Subject 1: 70
+  Subject 2: 65
+  Subject 3: 80
+[SUCCESS] Record for Roll No 101 updated.
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 5
+
+--- Academic Performance ---
+Enter Roll Number: 101
+Name        : Aman
+Marks       : [70, 65, 80]
+Total Marks : 215 / 300
+Percentage  : 71.67%
+Result      : PASS
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 6
+
+--- Delete Student Record ---
+Enter Roll Number to delete: 103
+[SUCCESS] Record of 'Karan' (Roll No: 103) deleted.
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 1
+
+--- Enrolled Student Records ---
+Roll No: 101  | Name: Aman      | Branch: BCA AI | Sem: 1 | Marks: [70, 65, 80]
+Roll No: 102  | Name: Riya      | Branch: BCA AI | Sem: 1 | Marks: [92, 88, 95]
+Roll No: 104  | Name: Neha      | Branch: BCA AI | Sem: 1 | Marks: [88, 76, 91]
+Total Enrolled Students: 3
+
+Select an operation:
+1. View All Students
+2. Search Student by Roll Number
+3. Register New Student
+4. Update Student Details
+5. View Academic Performance
+6. Delete Student Record
+7. Exit
+
+Enter your choice (1-7): 7
+
+Thank you for using the Student Information Management System. Goodbye!
